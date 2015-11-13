@@ -2,6 +2,6 @@
 
 Crea el esqueleto HTML
 
-,,,
+```
 HTML
-,,,
+```
