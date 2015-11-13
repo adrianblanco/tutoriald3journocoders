@@ -1,6 +1,14 @@
-# tutoriald3bostock
+# Tutorial D3 Journocoders Madrid
 
-Crea el esqueleto HTML
+Para este primer encuentro seguiremos un tutorial del creador de D3.js, Mike Bostock, con el que crearemos un gráfico de barras muy sencillo.
+
+El tutorial original, podéis encontrarlo en este link: http://bost.ocks.org/mike/bar/
+
+A continuación una versión adaptada del mismo, paso a paso:
+
+## Cómo generar un gráfico de barras en D3
+
+Primero, crea el esqueleto HTML:
 
 ```
 <!DOCTYPE html>
@@ -129,7 +137,7 @@ Por último, cargaremos los datos que hemos definido antes en el gráfico:
     
 ```
 
-El resultado final es el siguiente:
+El código final es el siguiente:
 
 ```
 <!DOCTYPE html>
@@ -181,4 +189,9 @@ El resultado final es el siguiente:
 
 </html>
 ```
+![Resultado final](barrasd3.png)
 
+Puedes ver el resultado en este link: http://bl.ocks.org/adrianblanco/da9fed51f09ee1ec0724
+
+
+Ésta es sólo la primera parte para generar un gráfico de barras en D3. Puedes continuar con ["Let's Make a Bar Chart II"](http://bost.ocks.org/mike/bar/2/), donde se introducen los SVG, un concepto clave en D3.js, y ["Let's Make a Bar Chart II"](http://bost.ocks.org/mike/bar/3/)
