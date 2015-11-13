@@ -37,7 +37,7 @@ Primero, crea el esqueleto HTML:
 
 ```
 
-Dentro de <head>, introduce la ruta a D3.js en la fuente del script (Importante: sin esta ruta no verás el gráfico)
+Dentro de head, introduce la ruta a D3.js en la fuente del script (Importante: sin esta ruta no verás el gráfico)
 Puedes extraerla de aquí: http://d3js.org
 
 ```
@@ -147,6 +147,8 @@ El código final es el siguiente:
 
   <head>
 
+    <script src="//d3js.org/d3.v3.min.js"></script>
+
     <style type="text/css">
 
     .chart div {
@@ -165,8 +167,6 @@ El código final es el siguiente:
   <body>
 
     <div class="chart"></div>
-
-    <script src="//d3js.org/d3.v3.min.js"></script>
 
     <script>
 
