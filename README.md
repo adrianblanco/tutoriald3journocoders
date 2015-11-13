@@ -7,6 +7,7 @@ Crea el esqueleto HTML
 <html>
 
   <meta charset="utf-8">
+  <script src=""></script>
 
   <head>
 
@@ -18,8 +19,6 @@ Crea el esqueleto HTML
   <body>
 
     <div></div>
-
-    <script src=""></script>
     
     <script>
     </script>
@@ -28,6 +27,14 @@ Crea el esqueleto HTML
 
 </html>
 
+```
+
+Dentro de <head>, introduce la ruta a D3.js en la fuente del script (Importante: sin esta ruta no verás el gráfico)
+Puedes extraerla de aquí: http://d3js.org
+
+```
+  <script src="//d3js.org/d3.v3.min.js"></script>
+  
 ```
 
 Añade los estilos del gráfico dentro de la etiqueta <head>:
@@ -67,15 +74,7 @@ Puedes personalizar los estilos:
     </style>
 ```
 
-Dentro de <body>, introduce la ruta a D3.js en la fuente del script (Importante: sin esta ruta no verás el gráfico)
-Puedes extraerla de aquí: http://d3js.org
-
-```
-  <script src="//d3js.org/d3.v3.min.js"></script>
-  
-```
-
-Seguimos dentro de la etiqueta body. Es momento de introducir el script donde escribiremos nuestro código en D3.js
+Pasamos a la etiqueta body del código HTML. Es momento de introducir el script donde escribiremos nuestro código en D3.js
 
 En primer lugar, los datos que queremos representar en nuestro primer gráfico de barras
 
