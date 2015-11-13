@@ -48,9 +48,9 @@ Añade los estilos del gráfico dentro de la etiqueta <head>:
 ```
 
 Puedes personalizar los estilos:
-  -Cambia el tamaño o el tipo de la fuente (font)
-  -Modifica el color del gráfico. Puedes expresar el color como "steelblue" o con colores HEX como este azul #BAD4F6
-  -Edita el ancho de las barras (padding) o el margen (margin) entre ellas
+  * Cambia el tamaño o el tipo de la fuente (font)
+  * Modifica el color del gráfico. Puedes expresar el color como "steelblue" o con colores HEX como este azul #BAD4F6
+  * Edita el ancho de las barras (padding) o el margen (margin) entre ellas
   
 ```
     <style type="text/css">
