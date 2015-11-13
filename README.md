@@ -194,4 +194,4 @@ El código final es el siguiente:
 Puedes ver el resultado en este link: http://bl.ocks.org/adrianblanco/da9fed51f09ee1ec0724
 
 
-Ésta es sólo la primera parte para generar un gráfico de barras en D3. Puedes continuar con ["Let's Make a Bar Chart II"](http://bost.ocks.org/mike/bar/2/), donde se introducen los SVG, un concepto clave en D3.js, y ["Let's Make a Bar Chart II"](http://bost.ocks.org/mike/bar/3/)
+Ésta es sólo la primera parte para generar un gráfico de barras en D3. Puedes continuar con ["Let's Make a Bar Chart II"](http://bost.ocks.org/mike/bar/2/), donde se introducen los SVG, un concepto clave en D3.js, y ["Let's Make a Bar Chart III"](http://bost.ocks.org/mike/bar/3/)
